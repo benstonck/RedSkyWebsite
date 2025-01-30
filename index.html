@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>RedSky Consultancy Services</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="RedSky, RedSky Consultancy Services" name="keywords">
+    <meta content="RedSky Consultancy | WEB & IT SOLUTIONS" name="description">
+    <meta name="author" content="RedaSky Consultancy">
+    <link rel="shortcut icon" href="img/redsky-img/RedSky.png">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/debug.css">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid head-bg-color px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>RedSky Consultancy, Marthandam</small>
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>Call: +91 9043640922</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>pm@redskyconsultancy.in</small>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.facebook.com/profile.php?id=61556450122212"><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.instagram.com/redsky_consultancy/"><i class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.linkedin.com/"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://twitter.com/login"><i class="fab fa-twitter fw-normal"></i></a>
+                    <!-- <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar & Carousel Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand p-0">
+                <!-- <h1 class="m-0"><i class="fa fa-user-tie me-2"></i>Startup</h1> -->
+                 <img src="img/redsky-img/Redsky_logo-removebg-preview.png" class="redsky-logo" alt="redsky logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link">Services</a>
+                    <a href="training.html" class="nav-item nav-link">Our Training Courses</a>
+                    <!-- <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                            <a href="detail.html" class="dropdown-item">Blog Detail</a>
+                        </div>
+                    </div> -->
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="vision.html" class="dropdown-item">Our Vision</a>
+                            <a href="team.html" class="dropdown-item">Our Team</a>
+                            <a href="clients.html" class="dropdown-item">Our Clients</a>
+                            <!-- <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <a href="quote.html" class="dropdown-item">Free Quote</a> -->
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <!-- <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton> -->
+                <!-- <a href="https://htmlcodex.com/startup-company-website-template" class="btn btn-primary py-2 px-4 ms-3">Download Pro Version</a> -->
+            </div>
+        </nav>
+
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img class="w-100" src="img/redsky-img/baner-img-5.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-3 animated slideInDown">Best IT Solutions</h4>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Quality Digital Services You Really Need!</h1>
+                            <p class="mb-4 text-white fs-5 animated fadeInDown">We offer the full spectrum of services to help organizations work better.</p>
+
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                            <a href="contact.html" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/redsky-img/baner-img-3.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-3 animated slideInDown">Best IT Solutions</h4>
+                            <h2 class="display-1 text-white mb-md-4 animated zoomIn">RedSky Consultancy Services</h2>
+                            <p class="mb-4 text-white fs-5 animated fadeInDown">We offer the full spectrum of services to help organizations work better.</p>
+
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                            <a href="contact.html" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Navbar & Carousel End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <!-- Facts Start -->
+    <div class="container-fluid facts py-5 pt-lg-0">
+        <div class="container py-5 pt-lg-0">
+            <div class="row gx-0">
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
+                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                            <i class="fa fa-users text-primary"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-white mb-0">Happy Clients</h5>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">50</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="bg-light shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                            <i class="fa fa-check text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-primary mb-0">Projects Done</h5>
+                            <h1 class="mb-0" data-toggle="counter-up">50</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                            <i class="fa fa-award text-primary"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-white mb-0">Win Awards</h5>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">50</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Facts Start -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h5 class="fw-bold text-primary text-uppercase">About Us</h5>
+                        <h1 class="mb-0">The Best IT Solution With 10 Years of Experience</h1>
+                    </div>
+                    <p class="mb-4 text-color">RedSky Consultancy has been designing websites for more than ten years. It is a reputable, experienced software company in India. In order to help our clients reach their business objectives, we provide them with extremely competent technology-enabled web solutions. In addition to many other services, we provide web hosting, corporate design, CMS development, E-Commerce development, web application development, web designing, and much more.
+                        We are a dedicated group of more than fifty experts that include marketers, SEO executives, web developers, graphic designers, and web designers.<br>
+                        Our team of experts brings a wealth of experience and creativity to the table, ensuring that your brand stands out and thrives in the digital realm.</p>
+
+                    <!-- <div class="row g-0 mb-3">
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Award Winning</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional Staff</h5>
+                        </div>
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>24/7 Support</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fair Prices</h5>
+                        </div>
+                    </div> -->
+                    <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                            <i class="fa fa-phone-alt text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="mb-2">Call to ask any question</h5>
+                            <!-- <h4 class="text-primary mb-0">Call: +91 9043640922</h4> -->
+                            <a class="h5 defalt-color" href="tel:+919043640922" target="_blank">+91 9043640922</a>
+
+                        </div>
+                    </div>
+                    <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Read More</a>
+                </div>
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 img-border wow zoomIn" data-wow-delay="0.9s" src="img/redsky-img/About-img.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Why Choose Us -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Why Choose Us</h5>
+                <h1 class="mb-0">We Are Here to Grow Your Business Exponentially</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-cubes text-white"></i>
+                            </div>
+                            <h4>Expert Team</h4>
+                            <p class="mb-0">Our team consists of skilled professionals with deep expertise in the latest technologies.</p>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-award text-white"></i>
+                            </div>
+                            <h4>Award Winning</h4>
+                            <p class="mb-0">Our award-winning services reflect our commitment to excellence, innovation, and delivering top-tier IT solutions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute why-chose-us-img w-100 h-100  wow zoomIn" data-wow-delay="0.1s" src="img/redsky-img/why-chose-us.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-users-cog text-white"></i>
+                            </div>
+                            <h4> Proven Track Record</h4>
+                            <p class="mb-0">With years of experience, we have successfully delivered IT projects on time and within budget.</p>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-phone-alt text-white"></i>
+                            </div>
+                            <h4>24/7 Support</h4>
+                            <p class="mb-0">We provide 24/7 dedicated technical support to ensure seamless operation and minimize downtime.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Why Choose Us -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Our Services</h5>
+                <h1 class="mb-0">Custom IT Solutions for Your Successful Business</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                    <div class="service-item bg-light d-flex flex-column align-items-center justify-content-center text-center service-border">
+                        <div class="service-icon">
+                            <i class="fa fa-code text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Web Design</h4>
+                        <p class="m-0 text-color">Website designing involves the process of creating the visual aesthetics and user interface of a website. It is a multidisciplinary task that encompasses various skills and disciplines, including graphic design, user experience (UX) design, and front-end development.</p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                    <div class="service-item bg-light d-flex flex-column align-items-center justify-content-center text-center service-border">
+                        <div class="service-icon">
+                            <!-- <i class="fa fa-code text-white"></i> -->
+                            <i class="fa fa-file-code fa-1x mb-1 icon-color "></i>
+                        </div>
+                        <h4 class="mb-3">Web Development</h4>
+                        <p class="m-0 text-color">Software development encompasses creating, testing, and maintaining computer programs using programming languages like Python, Java, C++, or JavaScript, involving stages from planning to deployment, often in collaborative teams.</p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                    <div class="service-item bg-light d-flex flex-column align-items-center justify-content-center text-center service-border">
+                        <div class="service-icon">
+                            <!-- <i class="fa fa-code text-white"></i> -->
+                            <i class="fa fa-external-link-alt fa-1x mb-1 icon-color"></i>
+
+                        </div>
+                        <h4 class="mb-3">IT Consulting</h4>
+                        <p class="m-0 text-color">RedSky Consultancy collaborates closely with organizations, understanding their needs and leveraging cutting-edge technology trends. They provide affordable, scalable solutions tailored to support company goals and objectives.</p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="service-item  bg-light d-flex flex-column align-items-center justify-content-center text-center service-border">
+                        <div class="service-icon">
+                            <i class="fa fa-shield-alt bg-primary text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Cyber Security</h4>
+                        <p class="m-0 text-color">Cyber security is a critical area in IT that focuses on protecting computer systems, networks, and data from unauthorized access, attacks, theft, or damage. It involves a range of practices, technologies, and processes aimed at ensuring the confidentiality, integrity, and availability of information.</p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="service-item bg-light d-flex flex-column align-items-center justify-content-center text-center service-border">
+                        <div class="service-icon">
+                            <i class="fa fa-chart-pie text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Digital Marketing</h4>
+                        <p class="m-0 text-color">SEO (Search Engine Optimization) is a crucial aspect of digital marketing aimed at improving website's visibility in Search Engine Results Pages (SERPs) organically. It involves various strategies and tactics to optimize a website, making it more search engine friendly and increasing its chances of ranking higher for relevant searches.</p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+               
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="service-item bg-light d-flex flex-column align-items-center justify-content-center text-center service-border">
+                        <div class="service-icon">
+                            <!-- <i class="fab fa-android text-white"></i> -->
+                            <i class="fas fa-laptop fa-1x mb-1 icon-color"></i>
+
+                        </div>
+                        <h4 class="mb-3">PROJECT SUPPORT/TRAINING</h4>
+                        <p class="m-0 text-color">Project support involves providing assistance, resources, and expertise to ensure the successful execution and completion of a project. It encompasses various roles and activities aimed at aiding project managers, teams, and stakeholders throughout the project lifecycle.</p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            
+                <div class="col-lg-6 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="service-item bg-light d-flex flex-column align-items-center justify-content-center text-center service-border">
+                        <div class="service-icon">
+                            <i class="fab fa-android text-white"></i>
+                        </div>
+                        <h4 class="mb-3">APPLICATION DEVELOPMENT</h4>
+                        <p class="m-0 text-color">Application development involves the creation, design, and implementation of software applications tailored to fulfill specific functions or purposes. This process can vary widely based on the type of application, its intended use, and the technology stack used for development.</p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="service-item bg-light d-flex flex-column align-items-center justify-content-center text-center service-border">
+                        <div class="service-icon">
+                         <i class="fa fa-search text-white"></i>
+                        </div>
+                        <h4 class="mb-3">BRANDING</h4>
+                        <p class="m-0 text-color">Software branding involves establishing a unique identity and perception for a software product or application. Just like any other product or service, software also benefits from a well-defined brand that communicates its value, purpose, and characteristics to users.</p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                    <div class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
+                        <h3 class="text-white mb-3">Call Us For Quote</h3>
+                        <p class="text-white mb-3">Clita ipsum magna kasd rebum at ipsum amet dolor justo dolor est magna stet eirmod</p>
+                        <h2 class="text-white mb-0">+012 345 6789</h2>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- our vision Start  -->
+
+    <div class="container-fluid blog py-5 mb-5">
+        <div class="container">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Our Vision</h5>
+                <!-- <h1 class="mb-0">Custom IT Solutions for Your Successful Business</h1> -->
+            </div>
+
+            <!-- <div class="heading-about pd-5">
+                <h1 class="headin-color-red-sky">Our Vision</h1>
+            </div>
+
+            <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                <h5 class="text-primary">Our Blog</h5>
+                <h1>Latest Blog & News</h1>
+            </div> -->
+            <div class="row g-5 justify-content-center">
+                <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+                    <div class="blog-item position-relative bg-light rounded hover-effect">
+                        <img src="img/redsky-img/our-vission.jpg" class="img-fluid w-100 rounded-top" alt="">
+                        
+                        
+                        <div class="blog-content text-center position-relative px-3" style="margin-top: 20px;">
+                            <!-- <img src="img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3" alt=""> -->
+                            <!-- <h5 class="">Our Vision</h5> -->
+                            <!-- <span class="text-secondary">24 March 2023</span> -->
+                            <p class="py-2">Our vision is to be a trusted partner and catalyst for our clients' success, providing innovative solutions and expert guidance. We aim to help organizations navigate business and technology challenges, fostering sustainable growth and strategic resilience. We aspire to be a symbol of excellence, leading businesses toward a brighter future.</p>
+                        </div>
+                        <!-- <div class="blog-coment d-flex justify-content-between px-4 py-3 border icon-color-defalt rounded-bottom">
+                            <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
+                            <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".5s">
+                    <div class="blog-item position-relative bg-light  rounded hover-effect">
+                        <img src="img/redsky-img/our missionn.jpg" class="img-fluid w-100 rounded-top" alt="">
+                        <!-- <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Development</span> -->
+
+                        <div class="blog-content text-center position-relative px-3" style="margin-top: 20px; padding-bottom: 10px; ">
+                            <!-- <img src="img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3" alt=""> -->
+                            <!-- <h5 class="">Our Mission</h5> -->
+                            <!-- <span class="text-secondary">23 April 2023</span> -->
+                            <p class="py-2 ">Our mission is simple - to create software that empowers individuals and businesses, making their lives easier and more productive. We believe in the power of innovation and strive to deliver software that is user-friendly, reliable, and continuously updated to meet your evolving needs.</p>
+                        </div>
+                        <!-- <div class="blog-coment d-flex justify-content-between px-4 py-3 border icon-color-defalt rounded-bottom">
+                            <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
+                            <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".7s">
+                    <div class="blog-item position-relative bg-light rounded hover-effect">
+                        <img src="img/redsky-img/our-values.jpg" class="img-fluid w-100 rounded-top" alt="">
+                        <!-- <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Mobile App</span> -->
+                        
+                        <div class="blog-content text-center position-relative px-3" style="margin-top: 20px;">
+                            <!-- <img src="img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3" alt=""> -->
+                            <!-- <h5 class="">Our Story</h5> -->
+                            <!-- <span class="text-secondary">30 jan 2023</span> -->
+                            <p class="py-2">Founded in 2014, RedSky Consultancy Services embarked on this journey with a vision to simplify complex task and enhance digital experiences through our innovative software solutions. With a passionate team of technology enthusiasts, we've been pushing the boundaries of what software can do, striving to make the digital world more efficient and accessible.</p>
+                        </div>
+                        <!-- <div class="blog-coments d-flex justify-content-between px-4 py-3 border icon-color-defalt rounded-bottom">
+                            <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
+                            <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- our vision end -->
+
+     <!-- Team Start -->
+     <div class="container-xxl py-5">
+        <div class="container">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Team Members</h5>
+                <h1 class="mb-0">Professional Stuffs Ready to Help Your Business</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item rounded">
+                        <img class="img-fluid" src="img/redsky-img/narendran-manager.jpg" alt="">
+                        <div class="text-center p-4">
+                            <h5>NARENDRAN</h5>
+                            <span>Manager</span>
+                        </div>
+                        <div class="team-text text-center bg-white p-4">
+                            <h5>NARENDRAN</h5>
+                            <p>Manager</p>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item rounded">
+                        <img class="img-fluid" src="img/redsky-img/prabhu-IT.jpg" alt="">
+                        <div class="text-center p-4">
+                            <h5>PRABHU</h5>
+                            <span>Angular Developer</span>
+                        </div>
+                        <div class="team-text text-center bg-white p-4">
+                            <h5>PRABHU</h5>
+                            <p>Angular Developer</p>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item rounded">
+                        <img class="img-fluid" src="img/redsky-img/rejo-two.jpg" alt="">
+                        <div class="text-center p-4">
+                            <h5>REJO</h5>
+                            <span>Angular Developer</span>
+                        </div>
+                        <div class="team-text text-center bg-white p-4">
+                            <h5>REJO</h5>
+                            <p>Angular Developer</p>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item rounded">
+                        <img class="img-fluid" src="img/redsky-img/beniston.jpg" alt="">
+                        <div class="text-center p-4">
+                            <h5>BENSTON CK</h5>
+                            <span>Angular Developer</span>
+                        </div>
+                        <div class="team-text text-center bg-white p-4">
+                            <h5>BENSTON</h5>
+                            <p>Angular Developer</p>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+
+            <div class="row justify-content-center mt-3">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item rounded">
+                        <img class="img-fluid" src="img/redsky-img/deva-ringles.jpg" alt="">
+                        <div class="text-center p-4">
+                            <h5>SHAHEER</h5>
+                            <span>Full Stack Developer</span>
+                        </div>
+                        <div class="team-text text-center bg-white p-4">
+                            <h5>SHAHEER</h5>
+                            <p>Full Stack Developer</p>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item rounded">
+                        <img class="img-fluid" src="img/redsky-img/deva-ringles.jpg" alt="">
+                        <div class="text-center p-4">
+                            <h5>DHAMOTHARAN</h5>
+                            <span>Full Stack Developer</span>
+                        </div>
+                        <div class="team-text text-center bg-white p-4">
+                            <h5>DHAMOTHARAN</h5>
+                            <p>Full Stack Developer</p>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
+                                <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Our Training Courses -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Our Training Courses</h5>
+                <h1 class="mb-0">We offer the full spectrum of services to help organizations work better.</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/redsky-img/dotnet.jpg" alt="">
+                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">PROGRAMMING</a>
+                        </div>
+                        <div class="p-4">
+                            <div class="d-flex mb-3">
+                                <h5 class="me-3"><i class="far fa-user text-primary me-2"></i>NARENDRAN</h5>
+                                <!-- <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small> -->
+                            </div>
+                            <h6 class="mb-3">Learn Full Stack Development</h6>
+                            <p>.NET Core Design Pattern<br>&<br> .Net Core Web API</p>
+                            <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/redsky-img/power-bi.jpg" alt="">
+                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Power BI</a>
+                        </div>
+                        <div class="p-4">
+                            <div class="d-flex mb-3">
+                                <h5 class="me-3"><i class="far fa-user text-primary me-2"></i>REJO</h5>
+                                <!-- <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small> -->
+                            </div>
+                            <h6 class="mb-3">Data Visualization Power BI</h6>
+                            <p>Learn Data Visualization<br>&<br>Reports and Dashboard</p>
+                            <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                    <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/redsky-img/web-development.jpg" alt="">
+                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Development</a>
+                        </div>
+                        <div class="p-4">
+                            <div class="d-flex mb-3">
+                                <h5 class="me-3"><i class="far fa-user text-primary me-2"></i>PRABHU</h5>
+                                <!-- <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small> -->
+                            </div>
+                            <h6 class="mb-3">How to build Web Application</h6>
+                            <p>HTML, CSS, Bootstrap, JavaScript<br> & <br> Angular frameworks
+                            </p>
+                            <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Training Courses -->
+
+     <!-- Our Clients -->
+     <div class="container-fluid testimonial py-5 mb-5">
+        <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+            <h5 class="fw-bold text-primary text-uppercase">Our Clients</h5>
+            <!-- <h1 class="mb-0">We offer the full spectrum of services to help organizations work better.</h1> -->
+        </div>
+
+        <div class="container">
+
+            <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay=".5s">
+                <div class="testimonial-item border p-4">
+                    <div class="d-flex align-items-center">
+                        <div class="">
+                            <a href="http://escrow-healthcare.com/"><img src="img/redsky-img/escrowlogo-09.png" class="our-strategic-partners" alt="logo"></a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="testimonial-item border p-4">
+                    <div class="d-flex align-items-center-clients">
+                        <div class="">
+                            <a href="https://leguider.com/"><img src="img/redsky-img/le-guider.jpg" class="our-strategic-partners" alt="logo"></a>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="testimonial-item border p-4">
+                    <div class="d-flex align-items-center-clients">
+                        <div class="">
+                            <a href="https://starmedicalcentre.ae/index.html"><img src="img/redsky-img/SMCLogofile-01.jpg" class="our-strategic-partners" alt="logo"></a>
+                        </div> 
+                    </div>
+                </div>     
+                </div>
+            </div>
+        </div>
+
+        <!-- Our Clients End -->
+
+                    <!-- OUR STRATEGIC PARTNERS -->
+
+                    <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                        <h5 class="fw-bold text-primary text-uppercase">Our Strategic Partners</h5>
+                        <!-- <h1 class="mb-0">We offer the full spectrum of services to help organizations work better.</h1> -->
+                    </div>
+                    <div class="container mb-5">
+    
+                        <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay=".3s">
+                            <div class="testimonial-item border p-4">
+                                <div class="d-flex align-items-center-clients">
+                                    <div class="">
+                                        <a href="https://taeknizon.com/"><img src="img/redsky-img/taeknson.png" class="our-strategic-partners" alt="logo"></a>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="testimonial-item border p-4">
+                                <div class="d-flex align-items-center-clients">
+                                    <div class="">
+                                        <a href="https://www.datainterops.com/"><img src="img/redsky-img/Datainterops-01.png" class="our-strategic-partners" alt="logo"></a>
+                                    </div> 
+                                </div>
+                            </div>
+                              
+                            </div>
+                        </div>
+
+                <!-- OUR STRATEGIC PARTNERS End -->        
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer fotter-background wow fadeIn" data-wow-delay=".3s">
+        <div class="container pt-5 pb-4">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <a href="index.html">
+                        <!-- <h1 class="text-white fw-bold d-block">High<span class="text-secondary">Tech</span> </h1> -->
+                        <img src="img/redsky-img/Redsky_logo-removebg-preview.png" class="redsky-logo" alt="nav-logo">
+                    </a>
+                    <p class="mt-4 text-white">RedSky Consultancy specializes in software and brand development, creating unique identities for organizations through innovative themes, designs, and internet marketing strategies.</p>
+                    <div class="d-flex hightech-link">
+                        <a href="https://www.facebook.com/profile.php?id=61556450122212" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-facebook-f footer-icon-colors "></i></a>
+                        <a href="https://twitter.com/login" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-twitter footer-icon-colors"></i></a>
+                        <a href="https://www.instagram.com/redsky_consultancy/" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-instagram footer-icon-colors"></i></a>
+                        <a href="https://www.linkedin.com/feed/" class="btn-light nav-fill btn btn-square rounded-circle me-0"><i class="fab fa-linkedin-in footer-icon-colors"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                        <a href="#" class="h3 text-light">Short Link</a>
+                    </div>
+                   <div class="mt-4 d-flex flex-column short-link">
+                        <a href="index.html" class="mb-2 text-white"><i class="fas fa-angle-right footer-icon-colors me-2"></i>Home</a>
+                        <a href="about.html" class="mb-2 text-white"><i class="fas fa-angle-right footer-icon-colors me-2"></i>About</a>
+                        <a href="service.html" class="mb-2 text-white"><i class="fas fa-angle-right footer-icon-colors me-2"></i>Services</a>
+                        <a href="training.html" class="mb-2 text-white"><i class="fas fa-angle-right footer-icon-colors me-2"></i>Our Training Courses</a>
+                        <a href="team.html" class="mb-2 text-white"><i class="fas fa-angle-right footer-icon-colors me-2"></i>Our Team</a>
+                        <a href="contact.html" class="mb-2 text-white"><i class="fas fa-angle-right footer-icon-colors me-2"></i>Contact us</a>
+
+                    </div>
+                </div>
+               
+                <div class="col-lg-4 col-md-6">
+                    <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                        <a href="#" class="h3 text-light">Contact Us</a>
+                    </div>
+                    <div class="text-white mt-4 d-flex flex-column contact-link">
+                        <a href="https://maps.app.goo.gl/hc4azVyG1H6g83XZ6" class="pb-3 text-light border-bottom border-primary"><i class="fas fa-map-marker-alt footer-icon-colors me-2"></i>RedSky Consultancy 2nd Floor, CSI Complex, &nbsp;&nbsp;&nbsp;&nbsp;Marthandam.</a>
+                        <a href="tel:+919043640922" class="py-3 text-light border-bottom border-primary"><i class="fas fa-phone-alt footer-icon-colors me-2"></i> +91 9043640922</a>
+                        <a href="mailto:pm@redskyconsultancy.in" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope footer-icon-colors me-2"></i> pm@redskyconsultancy.in</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="text-light mt-5 mb-4">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <span class="text-light"><a href="#" class="text-light"><i class="fas fa-copyright text-light me-2"></i>2025</a>, Developed By RedSky Consultancy.</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    <span class="text-light">Designed By<a href="#" class="text-light"> RedSky Consultancy</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <div id="whatsapp">
+        <a href="https://wa.me/+918825918531" target="_blank" class="wtsapp"><i class="orangr-whatsup-icon bi bi-whatsapp"></i></a>    
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    
+</body>
+
+</html>
